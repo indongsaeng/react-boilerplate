@@ -3635,7 +3635,7 @@ imagemin@^5.2.2:
     promise.pipe "^3.0.0"
     replace-ext "0.0.1"
 
-immutable@3.8.1, immutable@^3.7.6:
+immutable@3.8.1:
   version "3.8.1"
   resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.8.1.tgz#200807f11ab0f72710ea485542de088075f68cd2"
 
@@ -4816,13 +4816,9 @@ lodash.templatesettings@^3.0.0:
     lodash._reinterpolate "^3.0.0"
     lodash.escape "^3.0.0"
 
-lodash@4.17.4, lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.16.4, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.6.1:
+lodash@4.17.4, lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.16.4, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.6.1:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
-
-lodash@^4.2.0:
-  version "4.17.2"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.2.tgz#34a3055babe04ce42467b607d700072c7ff6bf42"
 
 log-driver@1.2.5:
   version "1.2.5"
@@ -6371,11 +6367,9 @@ reduce-function-call@^1.0.1:
   dependencies:
     balanced-match "^0.4.2"
 
-redux-immutable@3.0.8:
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/redux-immutable/-/redux-immutable-3.0.8.tgz#df5a5d601c88227ba38f474cf82f7d00e56f8c14"
-  dependencies:
-    immutable "^3.7.6"
+redux-immutable@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/redux-immutable/-/redux-immutable-4.0.0.tgz#3a1a32df66366462b63691f0e1dc35e472bbc9f3"
 
 redux-saga@0.14.0:
   version "0.14.0"
