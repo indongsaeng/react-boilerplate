@@ -3272,6 +3272,16 @@ globby@^5.0.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
+globby@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/globby/-/globby-6.1.0.tgz#f5a6d70e8395e21c858fb0489d64df02424d506c"
+  dependencies:
+    array-union "^1.0.1"
+    glob "^7.0.3"
+    object-assign "^4.0.1"
+    pify "^2.0.0"
+    pinkie-promise "^2.0.0"
+
 glogg@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/glogg/-/glogg-1.0.0.tgz#7fe0f199f57ac906cf512feead8f90ee4a284fc5"
@@ -4723,6 +4733,10 @@ lodash.get@^3.7.0:
     lodash._baseget "^3.0.0"
     lodash._topath "^3.0.0"
 
+lodash.get@^4.4.2:
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
+
 lodash.indexof@^4.0.5:
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/lodash.indexof/-/lodash.indexof-4.0.5.tgz#53714adc2cddd6ed87638f893aa9b6c24e31ef3c"
@@ -4816,13 +4830,9 @@ lodash.templatesettings@^3.0.0:
     lodash._reinterpolate "^3.0.0"
     lodash.escape "^3.0.0"
 
-lodash@4.17.4, lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.16.4, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.6.1:
+lodash@4.17.4, lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.16.4, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@^4.6.1:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
-
-lodash@^4.2.0:
-  version "4.17.2"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.2.tgz#34a3055babe04ce42467b607d700072c7ff6bf42"
 
 log-driver@1.2.5:
   version "1.2.5"
@@ -5240,7 +5250,24 @@ node-notifier@^4.6.1:
     shellwords "^0.1.0"
     which "^1.0.5"
 
-node-plop@0.5.4, node-plop@~0.5.4:
+node-plop@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/node-plop/-/node-plop-0.6.0.tgz#59c929a400b85447c7d430bc5fdc99f1d61cd096"
+  dependencies:
+    change-case "^2.3.1"
+    co "^4.6.0"
+    colors "^1.1.2"
+    core-js "^2.4.1"
+    del "^2.2.1"
+    globby "^6.1.0"
+    handlebars "^4.0.5"
+    inquirer "^1.2.0"
+    lodash.get "^4.4.2"
+    mkdirp "^0.5.1"
+    pify "^2.3.0"
+    resolve "^1.2.0"
+
+node-plop@~0.5.4:
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/node-plop/-/node-plop-0.5.4.tgz#1edfecb20955c7ba2b5c0d9ffa7a27b4109b295b"
   dependencies:
